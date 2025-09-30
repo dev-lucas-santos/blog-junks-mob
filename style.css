@@ -1,0 +1,126 @@
+
+
+body{
+    height: 1500px;
+    background-color: black;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p{
+    color: aliceblue;
+    text-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
+}
+a:hover {
+    opacity: 0.3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(12, 101, 255, 0.753);
+    height: 8vh;
+    width: 100%;
+
+}
+ 
+
+/* dar um atenção na fonte do logo não esta indo certo */
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('./fontes/') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+
+main {
+    background-color: black;
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100%;
+
+}
+ .nav-list {
+    list-style: none;
+    display: flex;
+ }
+
+ .nav-list li {
+       letter-spacing: 3px;
+    margin-left: 32px;
+ }
+
+ .mobile-menu {
+    display: none;
+    cursor: pointer;
+ }
+
+ .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+ }
+
+ @media (max-width: 999px){
+body {
+    overflow-x: hidden;
+}
+ .nav-list {
+position: absolute;
+top: 8vh;
+right: 0;
+width: 50vw;
+height: 92vh;
+background-color:rgba(64, 64, 65, 0.879);
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+transform: translateX(100%);
+ }
+}
+
+footer{
+     background-color: rgba(12, 101, 255, 0.753);
+    height: 8vh;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+align-content: center;
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* nao eswuecer de Ajustar conforme necessário */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
