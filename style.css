@@ -146,6 +146,11 @@ main.banner{
     /* box-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
  */}
 
+ .video-vicios:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
+
  .caixa-texto{
     display: flex;
     justify-content: center;
@@ -160,4 +165,24 @@ main.banner{
     color: aliceblue;
     font-size: 24px;
    
+ }
+
+ .caixa-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+    margin-top: 0%;
+    border-radius: 10px;
+ }
+
+
+ .foto-trap{
+    border-radius: 12px;
+    transition: 0.5s;
+    margin-top: 10px;
+ }
+ .foto-trap:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
  }
