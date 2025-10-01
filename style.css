@@ -122,5 +122,42 @@ align-content: center;
     background-position: center;
     background-repeat: no-repeat;
 
-    
 }
+
+main.banner{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}    
+
+.video-vicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 5%;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
+ */}
+
+ .caixa-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(250, 249, 249, 0.184);
+ }
+
+ .texto{
+    color: aliceblue;
+    font-size: 24px;
+   
+ }
