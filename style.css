@@ -186,9 +186,7 @@ h2.t-video-em-alta{
     margin-left: 65%;
     margin-top: 5%;
     border-radius: 20px;
-    /* box-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
- */}
-
+}
  .video-vicios:hover{
     transform: scale(1.1);
     transition: 0.5s;
@@ -201,10 +199,24 @@ h2.t-video-em-alta{
     margin-left: 65%;
     margin-top: 2%;
     border-radius: 20px;
-    /* box-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
- */}
+ }
+ 
 
  .video-244:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
+
+ .video-hummer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: 2%;
+    border-radius: 20px;
+ }
+
+ .video-hummer:hover{
     transform: scale(1.1);
     transition: 0.5s;
  }
