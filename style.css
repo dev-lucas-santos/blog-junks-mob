@@ -136,11 +136,54 @@ main.banner{
     background-color: black;
 }    
 
+/* 
+-------------- parte stories videos curtos --------------------- */
+
+.storie{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(250, 249, 249, 0.055);
+    gap: 20px;
+}
+
+.caixa-storie:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
+
+ .storie, .storie-2, .storie-3, .storie-4{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(250, 249, 249, 0.184);
+ }
+
+ .storie:hover, .storie-2:hover, .storie-3:hover, .storie-4:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
+/* 
+---------- parte videos ------------- */
+h2.t-video-em-alta{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .video-vicios{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 65%;
     margin-top: 5%;
     border-radius: 20px;
     /* box-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
@@ -151,21 +194,21 @@ main.banner{
     transition: 0.5s;
  }
 
- .caixa-texto{
+ .video-244{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50%;
-    margin-top: 5%;
-    border-radius: 10px;
-    box-shadow: 8px 8px 8px rgba(250, 249, 249, 0.184);
+    margin-left: 65%;
+    margin-top: 2%;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 8px rgba(31, 30, 30, 0.595);
+ */}
+
+ .video-244:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
  }
 
- .texto{
-    color: aliceblue;
-    font-size: 24px;
-   
- }
 
  .caixa-foto{
     display: flex;

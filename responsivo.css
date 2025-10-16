@@ -1,0 +1,34 @@
+@media (max-width: 350px, 375px, 390px, 414px,  768px, 840px, 1024px, 1080px, 1280px, 1440px, 1536px, 1920px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    header, footer {
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav {
+        display: none; /* Hide navigation on small screens */
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .sidebar {
+        display: none; /* Hide sidebar on small screens */
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
