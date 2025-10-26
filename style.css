@@ -24,6 +24,7 @@ nav {
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgba(12, 101, 255, 0.753);
+  margin-top: 2vh;
     height: 8vh;
     width: 100%;
 
@@ -221,6 +222,20 @@ h2.t-video-em-alta{
     transition: 0.5s;
  }
 
+
+ .video-backs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: 2%;
+    border-radius: 20px;
+ }
+
+ .video-backs:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
 
  .caixa-foto{
     display: flex;
