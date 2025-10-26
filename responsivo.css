@@ -10,7 +10,7 @@
     }
 
     nav {
-        display: none; /* Hide navigation on small screens */
+        display: none; 
     }
 
     .container {
@@ -19,7 +19,7 @@
     }
 
     .sidebar {
-        display: none; /* Hide sidebar on small screens */
+        display: none; 
     }
 
     .content {

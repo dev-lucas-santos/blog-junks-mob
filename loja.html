@@ -9,7 +9,6 @@
     <title>loja</title>
 </head>
 <body>
-        <header>
 
         <nav>
              <p class="logo" href="/">Junks Mob</p>
@@ -27,16 +26,151 @@
                 
             </ul>
         </nav>
+<br>
+<br>
+<br>
+<br>
 
-    </header>
+ <main class="container">
+      <div class="filtros">
+        <div class="categorias-cartas">
+          <label for="categoria">Categoria</label>
+          <select id="categoria" class="categoria">
+            <option value=""><strong>Selecione uma produto</strong></option>
+            <option value="comum">Camisas</option>
+            <option value="rara">Bones</option>
+            <option value="épica">Masculino</option>
+             <option value="Gold">feminino</option>
+          </select>
+        </div>
+        <div class="preco-cartas">
+          <label for="preco">Preço máximo (R$)</label>
+          <input type="text" id="preco" class="preco" placeholder="Ex: 100" />
+        </div>
+        <button class="btn-filtrar">Aplicar filtros</button>
+      </div>
+      <ul class="cartas">
+        <li class="carta" data-categoria="camisa" data-preco="3000">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
 
+          <div class="informacoes">
+            <h2 class="nome-personagem">produto 1</h2>
+            <span class="categoria">Categoria: camisa</span>
+            <span class="preco">R$ 3.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto!" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
 
+        <li class="carta" data-categoria="Rara" data-preco="4000">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Produto 2</h2>
+            <span class="categoria">Categoria: Camisa</span>
+            <span class="preco">R$ 4.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto!" class="btn-comprar" target="_blank">Comprar</a>
+          </div
+        </li>
 
-<h1 class="titulo-loja">disponovel em breve</h1>
+        <li class="carta" data-categoria="Épica" data-preco="800">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Bones</h2>
+            <span class="categoria">Categoria: Bones</span>
+            <span class="preco">R$ 1.800,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
 
-</body>
-<footer class="rodape">
-<p class="info-rodape">Dev-lucs-santos 2025</p>
-<a href="https://wa.me/5511955588899?ola, quero fazer uma cotação para um show">contato para shows</a>
-</footer>
-</html>
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Bones</h2>
+            <span class="categoria">Categoria: Bones</span>
+            <span class="preco">R$ 1.500,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="600">
+          <img src="./src/imagem/sua-logo.webp" alt="Carta Sakura" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">feminino</h2>
+            <span class="categoria">Categoria: feminino</span>
+            <span class="preco">R$ 900,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="400">
+          <img src="./src/imagem/sua-logo.webp" alt="Carta Sasuke Uchiha" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Masculino</h2>
+            <span class="categoria">Categoria: Masculino</span>
+            <span class="preco">R$ 2.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+<!-- fazer alteraçao no nome , valor, categoria e alterar as informações -->
+
+        <ul class="cartas">
+        <li class="carta" data-categoria="camisa" data-preco="3000">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">produto 1</h2>
+            <span class="categoria">Categoria: camisa</span>
+            <span class="preco">R$ 3.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto!" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="4000">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Produto 2</h2>
+            <span class="categoria">Categoria: Camisa</span>
+            <span class="preco">R$ 4.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto!" class="btn-comprar" target="_blank">Comprar</a>
+          </div
+        </li>
+
+        <li class="carta" data-categoria="Épica" data-preco="800">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Bones</h2>
+            <span class="categoria">Categoria: Bones</span>
+            <span class="preco">R$ 1.800,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagem/sua-logo.webp" alt="" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Bones</h2>
+            <span class="categoria">Categoria: Bones</span>
+            <span class="preco">R$ 1.500,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="600">
+          <img src="./src/imagem/sua-logo.webp" alt="Carta Sakura" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">feminino</h2>
+            <span class="categoria">Categoria: feminino</span>
+            <span class="preco">R$ 900,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="400">
+          <img src="./src/imagem/sua-logo.webp" alt="Carta Sasuke Uchiha" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Masculino</h2>
+            <span class="categoria">Categoria: Masculino</span>
+            <span class="preco">R$ 2.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar esse produto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
