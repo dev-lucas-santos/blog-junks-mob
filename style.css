@@ -95,7 +95,7 @@ transform: translateX(100%);
 
 footer{
      background-color: rgba(12, 101, 255, 0.753);
-    height: 8vh;
+    height: 4vh;
     width: 100%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -292,8 +292,8 @@ h2.t-video-em-alta{
 	padding: 16px 13px;
 	border-radius: 2px;
 	border: 2px solid #f7f7f7;
-	background-color: #0a0a0a;
-	color: #f1eded;
+	background-color: #f3eeee;
+	color: #111010;
 	height: 52px;
 }
 
