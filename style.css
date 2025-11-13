@@ -23,7 +23,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgba(12, 101, 255, 0.753);
+    background-color: #0000006c;
+    border: 2px , solid #fcf9f95e;
   margin-top: 2vh;
     height: 8vh;
     width: 100%;
@@ -95,12 +96,12 @@ transform: translateX(100%);
 }
 
 footer{
-     background-color: rgba(12, 101, 255, 0.753);
+     background-color: #0000006c;
     height: 4vh;
     width: 100%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
 }
@@ -409,7 +410,8 @@ h2.t-video-em-alta{
 }
 
 .rodape {
-	background-color: #0f0233;
+	background-color: #0000006c;
+    border: 2px , solid #fcf9f95e;
 	display: flex;
 	justify-content: center;
 	color: #fdfbfb;
