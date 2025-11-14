@@ -170,6 +170,19 @@ main.banner{
     transform: scale(1.1);
     transition: 0.5s;
  }
+
+
+
+audio.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 22%;
+    border-radius: 5px;
+    /* box-shadow: 8px 8px 8px rgba(250, 249, 249, 0.184);  ver se combona depois */
+}
+
 /* 
 ---------- parte videos ------------- */
 h2.t-video-em-alta{
