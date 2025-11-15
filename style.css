@@ -171,26 +171,49 @@ main.banner{
     transition: 0.5s;
  }
 
+ /* ---------------- parte icon redes sociais -------------------- */
 
+
+.icons-redes-sociais{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    gap: 20px;
+}
+
+
+ /* ------------- parte audio ------------------- */
+
+ h2.t-audio-em-alta{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 audio.audio{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 40%;
-    margin-top: 22%;
+    margin-top: 8%;
     border-radius: 5px;
     /* box-shadow: 8px 8px 8px rgba(250, 249, 249, 0.184);  ver se combona depois */
 }
 
-/* 
----------- parte videos ------------- */
+
+/* ---------- parte videos -------------  */
 h2.t-video-em-alta{
     color: aliceblue;
     font-size: 40px;
     text-align: center;
+    align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: 5%;
 }
 

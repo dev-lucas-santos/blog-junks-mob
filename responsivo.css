@@ -1,4 +1,7 @@
-@media (max-width: 350px, 375px, 390px, 414px,  768px, 840px, 1024px, 1080px, 1280px, 1440px, 1536px, 1920px) {
+@media (max-width: 450px) {
+	.cabecalho{display: flex ;}
+	.logo {display: flex;}
+
     body {
         font-size: 14px;
         padding: 10px;
@@ -9,8 +12,8 @@
         padding: 15px;
     }
 
-    nav {
-        display: none; 
+    .nav-list {
+        display: inline-block; 
     }
 
     .container {
