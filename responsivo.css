@@ -1,9 +1,7 @@
-@media (max-width: 450px) {
-	.cabecalho{display: flex ;}
-	.logo {display: flex;}
-
+/* Tablets e telas médias (até 375px) */
+@media (max-width: 375px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px;
     }
 
@@ -12,26 +10,261 @@
         padding: 15px;
     }
 
+    nav {
+        flex-wrap: wrap;
+    }
+
     .nav-list {
-        display: inline-block; 
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: none;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+
+    .caixa-storie {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .storie, .storie-2, .storie-3, .storie-4 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .icons-redes-sociais {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .icons-redes-sociais a {
+        font-size: 28px;
+    }
+
+    .foto-banner {
+        height: auto;
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        aspect-ratio: 16/9;
+    }
+
+    .t-video-em-alta {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .audio {
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+/* Smartphones (até 375px) */
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+        padding: 8px;
+        margin: 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 4px;
+    }
+
+    .mobile-menu div {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 2px;
+    }
+
+    .nav-list {
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.95);
+        display: none;
+        z-index: 100;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+    }
+
+    .nav-list a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .caixa-storie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .storie, .storie-2, .storie-3, .storie-4 {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .storie video, .storie-2 video, .storie-3 video, .storie-4 video {
+        width: 100%;
+        height: auto;
+    }
+
+    .icons-redes-sociais {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px 0;
+        flex-wrap: wrap;
+    }
+
+    .icons-redes-sociais a {
+        font-size: 24px;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foto-banner {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        aspect-ratio: 16/9;
+        margin-bottom: 15px;
+    }
+
+    .t-video-em-alta {
+        font-size: 18px;
+        text-align: center;
+        margin: 15px 0;
+        padding: 0 10px;
+    }
+
+    .audio {
+        width: 95%;
+        margin: 15px auto;
+        display: block;
+    }
+
+    footer {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+
+    .rodape {
+        text-align: center;
+    }
+
+    .info-rodape {
+        margin-bottom: 10px;
     }
 
     .container {
         width: 100%;
-        padding: 0 10px;
+        padding: 0;
     }
 
     .sidebar {
-        display: none; 
+        display: none;
     }
 
     .content {
         width: 100%;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     img {
         max-width: 100%;
         height: auto;
+    }
+
+    h1, h2, h3 {
+        font-size: 16px;
+    }
+
+    .texto {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
     }
 }
